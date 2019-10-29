@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.name {
+    width: 100%;
+    height: 121px;
+    color: rgba(215, 121, 74, 0.71);
+    font-size: 25px;
+    font-family: "Myriad Pro";
+
+    line-height: 7.917;
+    position: relative;
+    left: 62.261px;
+    top: -41.462px;
+    z-index: 200;
+}
+
+.inner {
+    width: 100%;
+    height: 78px;
+    background-color: #898d8e;
+    background: rgba(79, 76, 76, 0.46);
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    line-height: 4.75;
+    text-align: left;
+    z-index: 191;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+
+    text-decoration: none;
+    margin: 0 10px;
+
+    transition: color .2s linear;
+
+}
+
+.nav__link:hover {
+    color: #000;
+}
+
+
+.img {
+    width: 100%;
+    z-index: -2;
+    height: 500px;
+}
+
+.welcome {
+    font-size: 72px;
+    font-family: "Baskerville";
+    color: rgb(252, 249, 247);
+    text-transform: uppercase;
+    line-height: 0.417;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    left: 400px;
+    z-index: 195;
+}
+
+.company {
+    font-size: 48px;
+    font-family: "Athelas";
+    color: rgb(215, 121, 74);
+    text-transform: uppercase;
+    line-height: 0.625;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    top: -150px;
+    z-index: 196;
+}
